@@ -161,7 +161,8 @@ inclusion doesn't hold, and then `False` is correctly returned.
 In the `test-automata` directory there are some examples of automata in the
 `.ba` format.
 We benchmarked `bait` with a large set of automata, and they can be found in a
-separate repository.
+separate repository:
+[https://github.com/parof/buchi-automata-benchmark](https://github.com/parof/buchi-automata-benchmark).
 
 ## Authors
 
