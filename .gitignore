@@ -29,7 +29,6 @@ hs_err_pid*
 
 # Gradle (https://github.com/github/gitignore/blob/master/Gradle.gitignore)
 .gradle
-gradle
 **/build/
 !src/**/build/
 
