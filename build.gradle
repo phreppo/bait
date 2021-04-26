@@ -1,0 +1,30 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.4.2')
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+        events 'standard_error'
+    }
+}
+
+apply plugin: 'application'
+
+jar {
+  manifest {
+    attributes(
+      'Main-Class': 'bait.Main'
+    )
+  }
+}
+
+mainClassName = 'bait.Main'
