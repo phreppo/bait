@@ -2,6 +2,8 @@
 
 ![Java CI with Gradle](https://github.com/parof/bait/workflows/Java%20CI%20with%20Gradle/badge.svg)
 
+![bait logo](img/logo.png)
+
 A ω-regular language inclusion checker.
 
 - [bait - Büchi Automata Inclusion Tester](#bait---büchi-automata-inclusion-tester)
