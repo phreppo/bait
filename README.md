@@ -7,25 +7,33 @@
 A ω-regular language inclusion checker.
 
 - [bait - Büchi Automata Inclusion Tester](#bait---büchi-automata-inclusion-tester)
+  - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
-  - [Build](#build)
-  - [Running `bait`](#running-bait)
+  - [Building and Running](#building-and-running)
   - [The `.ba` format](#the-ba-format)
   - [Working example](#working-example)
   - [Benchmarks](#benchmarks)
   - [Authors](#authors)
 
+## Introduction
+
+`bait` is an ω-regular language inclusion checker which relies on an algorithm
+derived from Abstract Interpretation techniques.
+The tool accepts as input two
+[ω-regular languages](https://en.wikipedia.org/wiki/Omega-regular_language) represented as
+[Büchi automata](https://en.wikipedia.org/wiki/B%C3%BCchi_automaton) and outputs
+whether the inclusion holds or not.
+The automata are represented with the [the `.ba` format](#the-ba-format).
+
 ## Prerequisites
 
 - Java 8+
 
-## Build
+## Building and Running
 
-Run `./gradlew build` to build the project.
+Use `./gradlew build` to build `bait`.
 
-## Running `bait`
-
-The easiest way to run `bait` is to run the `bait.jar` file with `java -jar bait.jar`.
+The easiest way to run `bait` is to execute the `bait.jar` file with `java -jar bait.jar`.
 You can download it from the [release page](https://github.com/parof/bait/releases).
 Alternatively, you can build the `jar` file with:
 
@@ -123,8 +131,8 @@ q1
 
 We want to compute whether the inclusion holds between the following automata:
 
-![Automaton that accepts the language `(a+b)*a^ω`](./img/aut1.png)
-![Automaton that accepts the language `(ab)^ω`](./img/aut2.png)
+![Automaton that accepts the language `(a+b)*aω`](./img/aut1.png)
+![Automaton that accepts the language `(ab)ω`](./img/aut2.png)
 
 The [first automaton A](./test-automata/thesisA.ba) is represented in the `.ba` format as:
 
@@ -155,7 +163,7 @@ This command will give you the following output:
 
 ![Output of the previous command](./img/output.png)
 
-Since the language of A is `(a+b)*a^ω` and the language of B is `(ab)^ω` the
+Since the language of A is `(a+b)*aω` and the language of B is `(ab)ω` the
 inclusion doesn't hold, and then `False` is correctly returned.
 
 ## Benchmarks
