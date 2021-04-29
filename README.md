@@ -62,6 +62,8 @@ Run with argument `--help` to see the all the available options.
 ## The `.ba` format
 
 The input automata must be specified in the `.ba` format.
+The official description of the format, written by its authors, can be found at
+[http://languageinclusion.org/doku.php?id=tools#the_ba_format](http://languageinclusion.org/doku.php?id=tools#the_ba_format).
 Other tools, for example [RABIT](http://languageinclusion.org/doku.php?id=tools#rabit_and_reduce_v25),
 accept the same input format.
 One `.ba` file must respect the following specification:
