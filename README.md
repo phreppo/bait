@@ -33,7 +33,8 @@ The automata are represented with the [the `.ba` format](#the-ba-format).
 
 Use `./gradlew build` to build `bait`.
 
-The easiest way to run `bait` is to execute the `bait.jar` file with `java -jar bait.jar`.
+The easiest way to run `bait` is to execute the `bait.jar` file with `java -jar
+bait.jar -a path/to/A.ba -b path/to/B.ba`.
 You can download it from the [release page](https://github.com/parof/bait/releases).
 Alternatively, you can build the `jar` file with:
 
@@ -44,6 +45,12 @@ cd bait
 ```
 
 This command will build the executable `.jar` file in `build/libs`.
+Once you built the executable you can run:
+
+```{bash}
+java -jar build/libs/bait.jar -a path/to/A.ba -b path/to/B.ba
+```
+
 You can also run `bait` using `gradlew run`:
 
 ```{bash}
