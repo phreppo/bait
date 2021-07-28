@@ -38,6 +38,7 @@
             "@id": "https://orcid.org/0000-0001-9403-2860",
             "givenName": "Kyveli",
             "familyName": "Doveri",
+            "email": "kyveli.doveri@imdea.org",
             "affiliation": {
                 "@type": "Organization",
                 "name": "IMDEA Software Institute and Universidad Politécnica de Madrid, Spain"
@@ -48,6 +49,7 @@
             "@id": "https://orcid.org/0000-0002-3625-6003",
             "givenName": "Pierre",
             "familyName": "Ganty",
+            "email": "pierre.ganty@imdea.org",
             "affiliation": {
                 "@type": "Organization",
                 "name": "IMDEA Software Institute, Spain"
@@ -58,6 +60,7 @@
             "@id": "https://orcid.org/0000-0002-1077-7812",
             "givenName": "Francesco",
             "familyName": "Parolini",
+            "email": "francesco.parolini@lip6.fr",
             "affiliation": {
                 "@type": "Organization",
                 "name": "Sorbonne Université, France"
@@ -68,6 +71,7 @@
             "@id": "https://orcid.org/0000-0003-0159-0068",
             "givenName": "Francesco",
             "familyName": "Ranzato",
+            "email": "ranzato@math.unipd.it",
             "affiliation": {
                 "@type": "Organization",
                 "name": "Università degli Studi di Padova, Italy"
