@@ -1,0 +1,76 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "codeRepository": "git+https://github.com/parof/bait",
+    "contIntegration": "https://github.com/parof/bait/actions",
+    "dateCreated": "2021-04-26",
+    "datePublished": "2021-04-26",
+    "dateModified": "2021-04-26",
+    "downloadUrl": "https://github.com/parof/bait/archive/refs/heads/master.zip",
+    "issueTracker": "https://github.com/parof/bait/issues",
+    "name": "bait",
+    "version": "v0.1",
+    "description": "bait is an omega-regular language inclusion checker.",
+    "applicationCategory": "Computer Science",
+    "releaseNotes": "Initial release",
+    "developmentStatus": "active",
+    "keywords": [
+        "automata",
+        "language inclusion",
+        "omega-languages"
+    ],
+    "programmingLanguage": [
+        "Java"
+    ],
+    "runtimePlatform": [
+        "JVM"
+    ],
+    "operatingSystem": [
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0001-9403-2860",
+            "givenName": "Kyveli",
+            "familyName": "Doveri",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IMDEA Software Institute and Universidad Politécnica de Madrid, Spain"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-3625-6003",
+            "givenName": "Pierre",
+            "familyName": "Ganty",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IMDEA Software Institute, Spain"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-1077-7812",
+            "givenName": "Francesco",
+            "familyName": "Parolini",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Sorbonne Université, France"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-0159-0068",
+            "givenName": "Francesco",
+            "familyName": "Ranzato",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Università degli Studi di Padova, Italy"
+            }
+        }
+    ]
+}
