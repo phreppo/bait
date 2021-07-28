@@ -16,9 +16,10 @@
     "releaseNotes": "Initial release",
     "developmentStatus": "active",
     "keywords": [
-        "automata",
+        "abstract interpretation",
         "language inclusion",
-        "omega-languages"
+        "omega regular languages",
+        "büchi automata"
     ],
     "programmingLanguage": [
         "Java"
