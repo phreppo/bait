@@ -25,6 +25,9 @@ The tool accepts as input two
 whether the inclusion holds or not.
 The automata are represented with the [the `.ba` format](#the-ba-format).
 
+`bait` is the implementation of an algorithm presented at the conference [CONCUR](https://qonfest2021.lacl.fr/concur21.php) in 2021.
+A link to the article is given [here](https://doi.org/10.4230/LIPIcs.CONCUR.2021.3).
+
 ## Prerequisites
 
 - Java 8+
